@@ -11,15 +11,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico">
+  
 
     <!-- CSS Global Compulsory -->
 <link rel="stylesheet" href="<?php print base_url()?>assets/lib/sweet/sweet-alert.css">
 
 <script src="<?php print base_url()?>assets/js/global.js"></script>
  <script>
-    window.fp.path = "<?php echo site_url(); ?>";
+    window.fp.path = '<?php echo base_url(); ?>';
 </script> 
 </head> 
 
