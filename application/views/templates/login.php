@@ -1,6 +1,6 @@
 
 <?php  $this->load->helper('html'); ?>
-<?php  $base_url=$this->config->item('base_url'); ?>
+
 
 <div style="height: 45px; background-color: #797979;">
 <?php 
@@ -15,8 +15,11 @@
 
 <?php  } else {
 
-			echo img(array('src'=>$base_url.'images/facebook.png','id'=>'facebook','style'=>'cursor:pointer;height: 35px;float:right;margin-top: 10px;'));
+			echo img(array('src'=> "/images/facebook.png",'id'=>'facebook','style'=>'cursor:pointer;height: 35px;float:right;margin-top: 10px;'));
 			?>	
+			
+
 			 <?php } ?>
 
 </div>
+

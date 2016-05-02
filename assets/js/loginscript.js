@@ -55,7 +55,7 @@ function testAPI() {
  FB.api('/me', 
     {fields: 'name,email,first_name,last_name,birthday,hometown,gender,education,work,likes'}, function(res) {
                 
-         $.ajax({ type: "POST", url: window.fp.path+'/Oauth_Login/add_user_details', 
+         $.ajax({ type: "POST", url: window.fp.path+'index.php/Oauth_Login/add_user_details', 
           data: res}).done(function( msg ) {
             window.location.reload(); 
          
@@ -70,7 +70,7 @@ function testAPI() {
  $('.logout_action').click(function() {
 
                 console.log('Logout')
-                $.ajax({ type: "POST", url: window.fp.path+'/Oauth_Login/logout' }).done(function( msg ) {
+                $.ajax({ type: "POST", url: window.fp.path+'index.php/Oauth_Login/logout' }).done(function( msg ) {
                     if(msg == 'true')   {
                      
                         window.location.reload();
