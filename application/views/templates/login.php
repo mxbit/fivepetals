@@ -15,8 +15,13 @@
 
 <?php  } else {
 
+
 			echo img(array('src'=>"/images/facebook.png",'id'=>'facebook','style'=>'cursor:pointer;height: 35px;float:right;margin-top: 10px;'));
+
 			?>	
+			
+
 			 <?php } ?>
 
 </div>
+
